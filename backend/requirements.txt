@@ -1,0 +1,23 @@
+# Backend API Framework
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.28.0,<1.0.0
+pydantic>=2.6.0,<3.0.0
+pydantic-settings>=2.2.0,<3.0.0
+python-dotenv>=1.0.1
+
+# HTTP and Networking
+httpx>=0.27.0
+
+# YouTube Transcript Extraction
+youtube-transcript-api>=0.6.2
+
+# Embeddings & ML (CPU-optimized for 8GB RAM)
+numpy>=1.26.0
+torch>=2.2.0
+sentence-transformers>=2.6.0
+
+# Vector Similarity Search
+faiss-cpu>=1.8.0
+
+# Local LLM Client (Ollama)
+ollama>=0.1.7
